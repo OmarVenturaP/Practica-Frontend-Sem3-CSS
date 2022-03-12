@@ -720,10 +720,8 @@
         margin: 0;
     }
     .header {
-        left: 5%;
-        right: 5%;
-        width: 90%;
-        max-width: 90%;
+        width: 100%;
+        max-width: 100%;
         background: darkblue;
         color: #fff;
         height: 60px;
@@ -785,10 +783,9 @@
         position: fixed;
         top: 60px;
         bottom: 0;
-        background: rgba(218, 66, 66, 0.87);
-        width: 90%;
-        left: 5%;
-        right: 5%;
+        background: rgba(218, 66, 66, 1);
+        width: 0%;
+        left: 0;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
