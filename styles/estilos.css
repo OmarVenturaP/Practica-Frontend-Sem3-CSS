@@ -29,8 +29,8 @@ color: rgb(7, 7, 102);
 .nav-menu-icon {
     display: none;
 }
-.nav-label {
-    display: none;
+.nav-icon {
+    color: #fff;
 }
 .nav-menu-link {
     color: gray;
