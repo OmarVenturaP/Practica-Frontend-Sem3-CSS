@@ -26,6 +26,9 @@ color: rgb(7, 7, 102);
     max-width: 992px;
     margin: 0 auto;
 }
+.nav-label,.nav-menu-icon {
+    display: none;
+}
 .nav-menu-link {
     color: gray;
     text-decoration: none;
