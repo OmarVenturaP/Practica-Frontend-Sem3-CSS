@@ -715,7 +715,8 @@
 @media only screen and (max-width: 630px) {
     /* HEADER - BARRA DE NAVEGACION - RESPONSIVE */
     .header {
-        width: 100%;
+        left: 5%;
+        width: 90%;
         background: darkblue;
         color: #fff;
         height: 60px;
