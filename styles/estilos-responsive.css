@@ -786,9 +786,9 @@
         top: 60px;
         bottom: 0;
         background: rgba(218, 66, 66, 0.87);
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
+        width: 90%;
+        left: 5%;
+        right: 5%;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
