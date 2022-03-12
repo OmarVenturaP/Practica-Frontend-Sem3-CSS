@@ -714,9 +714,16 @@
 }
 @media only screen and (max-width: 630px) {
     /* HEADER - BARRA DE NAVEGACION - RESPONSIVE */
+    main {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
     .header {
         left: 5%;
+        right: 5%;
         width: 90%;
+        max-width: 90%;
         background: darkblue;
         color: #fff;
         height: 60px;
@@ -939,14 +946,14 @@
 }
 .div-input-date {
     margin-top: 12px;
-    margin-left:30px;
     width: 40%;
     position: relative;
     display: block;
 }
 .input-date {
-    font-size: 12px;
-    height: 25px;
+    width: 90%;
+    font-size: 10px;
+    height: 20px;
     border: 0;
     color: rgba(0, 0, 139, 0.74);
     font-weight: bold;
@@ -1139,8 +1146,8 @@
     border-top-left-radius: 25%;
     border-top-right-radius: 25%;
     position: absolute;
-    width: 80%;
-    margin-left: 50px;
+    width: 90%;
+    margin-left: 20px;
     top: 70px;
     opacity: 0.3;
 }
@@ -1164,18 +1171,17 @@
 }
 .div-sec3-right {
     font-size: 10px;
-    top: 110px;
-    left: 250px;
+    top: 80px;
     position: absolute;
     flex-wrap: wrap;
     display: block;
-    width: 65%;
+    right: auto;
+    margin-left: -270px;
     z-index: 0;
 }
 .nav-container-acordion {
-    width: 150%;
-    margin-left: -240px;
-    margin-top: 80px;
+    width: 170%;
+    margin-top: 90px;
 }
 .ul-acordion {
     width: 90%;
@@ -1271,7 +1277,7 @@
 .div-emergency-contact {
     width: 50%;  
     position: relative;
-    top: 0px;
+    top: 50px;
 }
 
 .div-emergency-contact h3 {
